@@ -1,0 +1,331 @@
+$primaerGroen: #1ed278;
+$lysOrange: #e65a32;
+$midnatsBlaa: #14282d;
+$blaaGroen: #325a5a;
+$stoevetBlaaGroen: #b8d1ce;
+$stoevetMintGroen: #e1f5f0;
+$FundsFont: gill-sans-nova, sans-serif;
+.reset {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: $stoevetMintGroen;
+  @extend .reset;
+  overflow-x: hidden;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  #logoArea {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: $midnatsBlaa;
+    height: 100%;
+    width: 20vw;
+    position: relative;
+    left: 10vw;
+    #logoImg {
+      width: 80%;
+      position: relative;
+      left: 2vw;
+      top: 0.5vw;
+    }
+    #logoTxt {
+      @extend .reset;
+      position: relative;
+      color: white;
+      text-align: center;
+      top: 1.5vw;
+      font-family: $FundsFont;
+      font-size: 2.1vw;
+      cursor: default;
+    }
+  }
+}
+main {
+  width: 100vw;
+  height: 85vw;
+  #mainHeadline {
+    font-family: $FundsFont;
+    position: relative;
+    left: 5vw;
+    font-size: 2.1vw;
+  }
+
+  #filterSelectionArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    .filterDiv {
+      width: 5vw;
+      margin: auto;
+      cursor: default;
+      transform: scale(1.4);
+
+      .selector {
+        width: 10vw;
+        cursor: pointer;
+        option {
+          font-family: $FundsFont;
+          width: 100%;
+          height: 2vw;
+          font-size: 1.1vw;
+          cursor: pointer;
+        }
+      }
+      .selectorTxt {
+        color: black;
+        font-family: $FundsFont;
+      }
+    }
+  }
+  #userlistArea {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    #indexTarget {
+      margin-left: 2vw;
+      margin-top: 2vw;
+      width: 70vw;
+      display: grid;
+
+      grid-template-columns: repeat(4, 1fr);
+      .selected {
+        transform: scale(0.9);
+
+        background: $stoevetBlaaGroen !important;
+        opacity: 0.7 !important;
+      }
+      .indexItem {
+        border: solid 2px black;
+        background: rgb(30, 210, 120);
+        background: -moz-linear-gradient(
+          45deg,
+          rgba(30, 210, 120, 1) 0%,
+          rgba(170, 250, 180, 1) 100%
+        );
+        background: -webkit-linear-gradient(
+          45deg,
+          rgba(30, 210, 120, 1) 0%,
+          rgba(170, 250, 180, 1) 100%
+        );
+        background: linear-gradient(
+          45deg,
+          rgba(30, 210, 120, 1) 0%,
+          rgba(170, 250, 180, 1) 100%
+        );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ed278', endColorstr='#aafab4',GradientType=1 );
+
+        height: 18vw;
+        margin: 0.5vw;
+        transition: 0.3s;
+        cursor: pointer;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        &:hover {
+          transform: scale(1.05);
+          background: rgb(170, 250, 180);
+          background: -moz-linear-gradient(
+            45deg,
+            rgba(170, 250, 180, 1) 0%,
+            rgba(30, 210, 120, 1) 100%
+          );
+          background: -webkit-linear-gradient(
+            45deg,
+            rgba(170, 250, 180, 1) 0%,
+            rgba(30, 210, 120, 1) 100%
+          );
+          background: linear-gradient(
+            45deg,
+            rgba(170, 250, 180, 1) 0%,
+            rgba(30, 210, 120, 1) 100%
+          );
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aafab4', endColorstr='#1ed278',GradientType=1 );
+        }
+        .name {
+          @extend .reset;
+          font-size: 1.1vw;
+          font-family: $FundsFont;
+          width: 80%;
+          margin: 1vw 1vw 1vw 1vw;
+        }
+        .subCon {
+          position: relative;
+          bottom: 0vw;
+          display: grid;
+
+          grid-template-rows: repeat(4, 1fr);
+          .region {
+            @extend .reset;
+            font-family: $FundsFont;
+            margin: 0.5vw;
+            font-weight: bold;
+          }
+          .marketStatus {
+            @extend .reset;
+            font-family: $FundsFont;
+            margin: 0.5vw;
+            font-weight: bold;
+          }
+          .category {
+            @extend .reset;
+            font-family: $FundsFont;
+            margin: 0.5vw;
+            font-weight: bold;
+          }
+          .exchange {
+            @extend .reset;
+            font-family: $FundsFont;
+            margin: 0.5vw;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    #selectedIndexArea {
+      margin: 2vw 0 0 3vw;
+      #selectedExchangeHeadline {
+        margin-top: 1vw;
+        color: black;
+        font-family: $FundsFont;
+        text-align: center;
+      }
+      #exchangeList {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      .exchangeItem {
+        .border {
+          width: 5vw;
+          height: 4vw;
+          background: rgb(30, 210, 120);
+          background: -moz-linear-gradient(
+            45deg,
+            rgba(30, 210, 120, 1) 0%,
+            rgba(170, 250, 180, 1) 100%
+          );
+          background: -webkit-linear-gradient(
+            45deg,
+            rgba(30, 210, 120, 1) 0%,
+            rgba(170, 250, 180, 1) 100%
+          );
+          background: linear-gradient(
+            45deg,
+            rgba(30, 210, 120, 1) 0%,
+            rgba(170, 250, 180, 1) 100%
+          );
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ed278', endColorstr='#aafab4',GradientType=1 );
+
+          .itemContent {
+            width: 90%;
+            height: 90%;
+
+            background-color: white;
+            position: relative;
+
+            @extend .reset;
+            .exchangeText {
+              font-family: $FundsFont;
+              @extend .reset;
+            }
+          }
+        }
+      }
+
+      #indexListHeadline {
+        margin-top: 1vw;
+        color: black;
+        font-family: $FundsFont;
+        text-align: center;
+      }
+      #indexList {
+        margin-top: -1vw;
+        width: 20vw;
+        height: 50vh;
+        overflow-y: scroll;
+        .indexItem {
+          border: solid 2px black;
+          background-color: $stoevetBlaaGroen;
+          height: 7vw;
+          margin: 0.5vw;
+          transition: 0.3s;
+
+          .name {
+            @extend .reset;
+            font-size: 1.1vw;
+            font-family: $FundsFont;
+            margin: 1vw 0 0 1vw;
+          }
+
+          .removeBtn {
+            border: solid black 2px;
+            width: 40%;
+            background-color: $lysOrange;
+            font-family: $FundsFont;
+            text-align: center;
+            position: relative;
+            left: 1vw;
+            top: 0.5vw;
+            cursor: pointer;
+          }
+        }
+      }
+      a {
+        text-decoration: none;
+        position: fixed;
+        bottom: 1.2vw;
+        right: 14.2vw;
+        #returnButton {
+          background-color: white;
+          border: solid 3px black;
+          border-radius: 0.5vw;
+          width: 10vw;
+          height: 3vw;
+
+          p {
+            font-family: $FundsFont;
+            color: black;
+            margin: auto;
+            text-align: center;
+            font-size: 1.1vw;
+            transform: translateY(0.6vw);
+            text-decoration: none;
+            text-decoration-line: none;
+            &:hover {
+              color: $lysOrange;
+            }
+          }
+        }
+      }
+      a {
+        text-decoration: none;
+
+        #continueButton {
+          background-color: white;
+          border: solid 3px black;
+          border-radius: 0.5vw;
+          width: 10vw;
+          height: 3vw;
+          position: fixed;
+          bottom: 1.2vw;
+          right: 1.2vw;
+          p {
+            font-family: $FundsFont;
+            color: black;
+            margin: auto;
+            text-align: center;
+            font-size: 1.1vw;
+            transform: translateY(0.6vw);
+            text-decoration: none;
+            text-decoration-line: none;
+            &:hover {
+              color: $primaerGroen;
+            }
+          }
+        }
+      }
+    }
+  }
+}

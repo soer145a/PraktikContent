@@ -1,0 +1,423 @@
+.reset, body, header #logoArea #logoTxt, main #userlistArea #indexTarget .indexItem .name, main #userlistArea #indexTarget .indexItem .subCon .region, main #userlistArea #indexTarget .indexItem .subCon .marketStatus, main #userlistArea #indexTarget .indexItem .subCon .category, main #userlistArea #indexTarget .indexItem .subCon .exchange, main #userlistArea #selectedIndexArea .exchangeItem .border .itemContent, main #userlistArea #selectedIndexArea .exchangeItem .border .itemContent .exchangeText, main #userlistArea #selectedIndexArea #indexList .indexItem .name, body main, body main #optionModal #modalSample .option .selectOption .optionP {
+  margin: 0;
+  padding: 0;
+}
+
+.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.reset, body, header #logoArea #logoTxt, main #userlistArea #indexTarget .indexItem .name, main #userlistArea #indexTarget .indexItem .subCon .region, main #userlistArea #indexTarget .indexItem .subCon .marketStatus, main #userlistArea #indexTarget .indexItem .subCon .category, main #userlistArea #indexTarget .indexItem .subCon .exchange, main #userlistArea #selectedIndexArea .exchangeItem .border .itemContent, main #userlistArea #selectedIndexArea .exchangeItem .border .itemContent .exchangeText, main #userlistArea #selectedIndexArea #indexList .indexItem .name, body main, body main #optionModal #modalSample .option .selectOption .optionP {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e1f5f0;
+  overflow-x: hidden;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+}
+
+header #logoArea {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background-color: #14282d;
+  height: 100%;
+  width: 20vw;
+  position: relative;
+  left: 10vw;
+}
+
+header #logoArea #logoImg {
+  width: 80%;
+  position: relative;
+  left: 2vw;
+  top: 0.5vw;
+}
+
+header #logoArea #logoTxt {
+  position: relative;
+  color: white;
+  text-align: center;
+  top: 1.5vw;
+  font-family: gill-sans-nova, sans-serif;
+  font-size: 2.1vw;
+  cursor: default;
+}
+
+main {
+  width: 100vw;
+  height: 85vw;
+}
+
+main #mainHeadline {
+  font-family: gill-sans-nova, sans-serif;
+  position: relative;
+  left: 5vw;
+  font-size: 2.1vw;
+}
+
+main #filterSelectionArea {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+main #filterSelectionArea .filterDiv {
+  width: 5vw;
+  margin: auto;
+  cursor: default;
+  transform: scale(1.4);
+}
+
+main #filterSelectionArea .filterDiv .selector {
+  width: 10vw;
+  cursor: pointer;
+}
+
+main #filterSelectionArea .filterDiv .selector option {
+  font-family: gill-sans-nova, sans-serif;
+  width: 100%;
+  height: 2vw;
+  font-size: 1.1vw;
+  cursor: pointer;
+}
+
+main #filterSelectionArea .filterDiv .selectorTxt {
+  color: black;
+  font-family: gill-sans-nova, sans-serif;
+}
+
+main #userlistArea {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+}
+
+main #userlistArea #indexTarget {
+  margin-left: 2vw;
+  margin-top: 2vw;
+  width: 70vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+main #userlistArea #indexTarget .selected {
+  transform: scale(0.9);
+  background: #b8d1ce !important;
+  opacity: 0.7 !important;
+}
+
+main #userlistArea #indexTarget .indexItem {
+  border: solid 2px black;
+  background: #1ed278;
+  background: -moz-linear-gradient(45deg, #1ed278 0%, #aafab4 100%);
+  background: -webkit-linear-gradient(45deg, #1ed278 0%, #aafab4 100%);
+  background: linear-gradient(45deg, #1ed278 0%, #aafab4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ed278', endColorstr='#aafab4',GradientType=1 );
+  height: 18vw;
+  margin: 0.5vw;
+  transition: 0.3s;
+  cursor: pointer;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+main #userlistArea #indexTarget .indexItem:hover {
+  transform: scale(1.05);
+  background: #aafab4;
+  background: -moz-linear-gradient(45deg, #aafab4 0%, #1ed278 100%);
+  background: -webkit-linear-gradient(45deg, #aafab4 0%, #1ed278 100%);
+  background: linear-gradient(45deg, #aafab4 0%, #1ed278 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aafab4', endColorstr='#1ed278',GradientType=1 );
+}
+
+main #userlistArea #indexTarget .indexItem .name {
+  font-size: 1.1vw;
+  font-family: gill-sans-nova, sans-serif;
+  width: 80%;
+  margin: 1vw 1vw 1vw 1vw;
+}
+
+main #userlistArea #indexTarget .indexItem .subCon {
+  position: relative;
+  bottom: 0vw;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+main #userlistArea #indexTarget .indexItem .subCon .region {
+  font-family: gill-sans-nova, sans-serif;
+  margin: 0.5vw;
+  font-weight: bold;
+}
+
+main #userlistArea #indexTarget .indexItem .subCon .marketStatus {
+  font-family: gill-sans-nova, sans-serif;
+  margin: 0.5vw;
+  font-weight: bold;
+}
+
+main #userlistArea #indexTarget .indexItem .subCon .category {
+  font-family: gill-sans-nova, sans-serif;
+  margin: 0.5vw;
+  font-weight: bold;
+}
+
+main #userlistArea #indexTarget .indexItem .subCon .exchange {
+  font-family: gill-sans-nova, sans-serif;
+  margin: 0.5vw;
+  font-weight: bold;
+}
+
+main #userlistArea #selectedIndexArea {
+  margin: 2vw 0 0 3vw;
+}
+
+main #userlistArea #selectedIndexArea #selectedExchangeHeadline {
+  margin-top: 1vw;
+  color: black;
+  font-family: gill-sans-nova, sans-serif;
+  text-align: center;
+}
+
+main #userlistArea #selectedIndexArea #exchangeList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+main #userlistArea #selectedIndexArea .exchangeItem .border {
+  width: 5vw;
+  height: 4vw;
+  background: #1ed278;
+  background: -moz-linear-gradient(45deg, #1ed278 0%, #aafab4 100%);
+  background: -webkit-linear-gradient(45deg, #1ed278 0%, #aafab4 100%);
+  background: linear-gradient(45deg, #1ed278 0%, #aafab4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ed278', endColorstr='#aafab4',GradientType=1 );
+}
+
+main #userlistArea #selectedIndexArea .exchangeItem .border .itemContent {
+  width: 90%;
+  height: 90%;
+  background-color: white;
+  position: relative;
+}
+
+main #userlistArea #selectedIndexArea .exchangeItem .border .itemContent .exchangeText {
+  font-family: gill-sans-nova, sans-serif;
+}
+
+main #userlistArea #selectedIndexArea #indexListHeadline {
+  margin-top: 1vw;
+  color: black;
+  font-family: gill-sans-nova, sans-serif;
+  text-align: center;
+}
+
+main #userlistArea #selectedIndexArea #indexList {
+  margin-top: -1vw;
+  width: 20vw;
+  height: 50vh;
+  overflow-y: scroll;
+}
+
+main #userlistArea #selectedIndexArea #indexList .indexItem {
+  border: solid 2px black;
+  background-color: #b8d1ce;
+  height: 7vw;
+  margin: 0.5vw;
+  transition: 0.3s;
+}
+
+main #userlistArea #selectedIndexArea #indexList .indexItem .name {
+  font-size: 1.1vw;
+  font-family: gill-sans-nova, sans-serif;
+  margin: 1vw 0 0 1vw;
+}
+
+main #userlistArea #selectedIndexArea #indexList .indexItem .removeBtn {
+  border: solid black 2px;
+  width: 40%;
+  background-color: #e65a32;
+  font-family: gill-sans-nova, sans-serif;
+  text-align: center;
+  position: relative;
+  left: 1vw;
+  top: 0.5vw;
+  cursor: pointer;
+}
+
+main #userlistArea #selectedIndexArea a {
+  text-decoration: none;
+  position: fixed;
+  bottom: 1.2vw;
+  right: 14.2vw;
+}
+
+main #userlistArea #selectedIndexArea a #returnButton {
+  background-color: white;
+  border: solid 3px black;
+  border-radius: 0.5vw;
+  width: 10vw;
+  height: 3vw;
+}
+
+main #userlistArea #selectedIndexArea a #returnButton p {
+  font-family: gill-sans-nova, sans-serif;
+  color: black;
+  margin: auto;
+  text-align: center;
+  font-size: 1.1vw;
+  transform: translateY(0.6vw);
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+main #userlistArea #selectedIndexArea a #returnButton p:hover {
+  color: #e65a32;
+}
+
+main #userlistArea #selectedIndexArea a {
+  text-decoration: none;
+}
+
+main #userlistArea #selectedIndexArea a #continueButton {
+  background-color: white;
+  border: solid 3px black;
+  border-radius: 0.5vw;
+  width: 10vw;
+  height: 3vw;
+  position: fixed;
+  bottom: 1.2vw;
+  right: 1.2vw;
+}
+
+main #userlistArea #selectedIndexArea a #continueButton p {
+  font-family: gill-sans-nova, sans-serif;
+  color: black;
+  margin: auto;
+  text-align: center;
+  font-size: 1.1vw;
+  transform: translateY(0.6vw);
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+main #userlistArea #selectedIndexArea a #continueButton p:hover {
+  color: #1ed278;
+}
+
+body main {
+  width: 100vw;
+  height: 100vh;
+}
+
+body main #baggrund {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+body main #startButton {
+  position: relative;
+  width: 19vw;
+  height: 10vh;
+  background-color: black;
+  top: 89%;
+  left: 40vw;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+body main #startButton:hover {
+  background-color: lightgray;
+  transform: scale(1.05);
+}
+
+body main #optionModal {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  transition: 0.3s;
+}
+
+body main #optionModal #modalSample {
+  position: relative;
+  top: 5vw;
+  left: 20vw;
+  width: 60vw;
+  height: 40vw;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+body main #optionModal #modalSample .option {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+}
+
+body main #optionModal #modalSample .option .headline {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+body main #optionModal #modalSample .option .description1 {
+  font-family: "Roboto", sans-serif;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 4vw;
+}
+
+body main #optionModal #modalSample .option .description2 {
+  font-family: "Roboto", sans-serif;
+  width: 95%;
+  margin: auto;
+}
+
+body main #optionModal #modalSample .option .readMore {
+  font-family: "Roboto", sans-serif;
+  margin-left: 2vw;
+}
+
+body main #optionModal #modalSample .option .selectOption {
+  margin: auto;
+  position: relative;
+  bottom: -5vw;
+  left: 0vw;
+  width: 15vw;
+  height: 2vw;
+  background-color: #e65a32;
+  border-radius: 2vw;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+body main #optionModal #modalSample .option .selectOption:hover {
+  transform: scale(1.05);
+}
+
+body main #optionModal #modalSample .option .selectOption .optionP {
+  text-align: center;
+  transform: translateY(0.5vw);
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+body main #optionModal #modalSample #optionA {
+  background-color: #e1f5f0;
+}
+
+body main #optionModal #modalSample #optionB {
+  background-color: #b8d1ce;
+}

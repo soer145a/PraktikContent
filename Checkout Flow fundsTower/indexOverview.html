@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Index Oversigt</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/rme4djr.css" />
+
+    <link
+      rel="shortcut icon"
+      href="imgs/Logo - udklip.JPG"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="logoArea">
+        <img src="imgs/Logo - udklip.JPG" alt="logo" id="logoImg" />
+        <p id="logoTxt">Funds Tower</p>
+      </div>
+    </header>
+    <main>
+      <div id="filterSelectionArea">
+        <h2 id="mainHeadline">Vælg dine Index:</h2>
+        <div id="filterForExchange" class="filterDiv">
+          <p id="filterForExchangeTxt" class="selectorTxt">
+            Filter for Exchange:
+          </p>
+          <select id="exchangeFilter" class="selector">
+            <option value="noFilter">--Select Filter--</option>
+            <option value="Frankfurt">Frankfurt</option>
+            <option value="London">London</option>
+            <option value="New York (NYSE)">New York (NYSE)</option>
+            <option value="Nasdaq">Nasdaq</option>
+            <option value="Chicago">Chicago</option>
+            <option value="Shanghai">Shanghai</option>
+            <option value="Copenhagen">Copenhagen</option>
+            <option value="Oslo">Oslo</option>
+            <option value="Stockholm">Stockholm</option>
+            <option value="Bruxelles">Bruxelles</option>
+            <option value="Helsinki">Helsinki</option>
+            <option value="Bombay">Bombay</option>
+            <option value="Mosow">Mosow</option>
+            <option value="Tokyo">Tokyo</option>
+            <option value="Dublin">Dublin</option>
+            <option value="Zürich">Zürich</option>
+            <option value="Wellington, New Zealand"
+              >Wellington, New Zealand</option
+            >
+            <option value="Wien">Wien</option>
+            <option value="Toronto">Toronto</option>
+            <option value="Bolsa, Mexico">Bolsa, Mexico</option>
+            <option value="Singapore">Singapore</option>
+            <option value="Prague">Prague</option>
+            <option value="Budapest">Budapest</option>
+            <option value="Istanbul">Istanbul</option>
+            <option value="Warsaw">Warsaw</option>
+            <option value="Bangkok">Bangkok</option>
+            <option value="Jakarta">Jakarta</option>
+            <option value="Taiwan">Taiwan</option>
+            <option value="Seoul">Seoul</option>
+            <option value="Kuala Lumpur">Kuala Lumpur</option>
+            <option value="Hang Seng">Hang Seng</option>
+            <option value="Colombo, Sri Lanka">Colombo, Sri Lanka</option>
+            <option value="Cape Town">Cape Town</option>
+          </select>
+        </div>
+        <div id="filterForCategory" class="filterDiv">
+          <p id="filterForCategoryTxt" class="selectorTxt">
+            Filter for Category:
+          </p>
+          <select id="categoryFilter" class="selector">
+            <option value="noFilter">--Select Filter--</option>
+            <option value="Stock">Stock</option>
+            <option value="Bonds">Bonds</option>
+            <option value="Volatility">Volatility</option>
+            <option value="Real Estate">Real Estate</option>
+            <option value="Utility">Utility</option>
+            <option value="Oil">Oil</option>
+            <option value="Airline">Airline</option>
+            <option value="Communication">Communication</option>
+            <option value="Pharmaceutical">Pharmaceutical</option>
+            <option value="Housing-Construction">Housing construction</option>
+            <option value="Blue chip">Blue chip</option>
+            <option value="Biotechnology">Biotechnology</option>
+            <option value="Gold mining">Gold mining</option>
+            <option value="Semiconductor">Semiconductor</option>
+            <option value="Computer Industry">Computer Industry</option>
+            <option value="Natural Gas">Natural Gas</option>
+            <option value="Bonds">Bonds</option>
+            <option value="Healthcare">Healthcare</option>
+            <option value="TMT">TMT</option>
+            <option value="Gold">Gold</option>
+            <option value="Transportation">Transportation</option>
+            <option value="Steel">Steel</option>
+            <option value="Technology">Technology</option>
+            <option value="Energy">Energy</option>
+            <option value="Financial">Financial</option>
+            <option value="Media">Media</option>
+            <option value="Chemicals">Chemicals</option>
+            <option value="Commodity">Commodity</option>
+            <option value="Natural Resources">Natural Resources</option>
+            <option value="Currency">Currency</option>
+            <option value="Metal">Metal</option>
+            <option value="Insurance">Insurance</option>
+            <option value="Consumer">Consumer</option>
+            <option value="Industrial">Industrial</option>
+            <option value="Information">Information</option>
+          </select>
+        </div>
+        <div id="filterForMarketStatus" class="filterDiv">
+          <p id="filterForMarketTxt" class="selectorTxt">
+            Filter for Market Status:
+          </p>
+          <select id="marketStatusFilter" class="selector">
+            <option value="noFilter">--Select Filter--</option>
+            <option value="Developed">Developed</option>
+            <option value="Emerging">Emerging</option>
+            <option value="Frontier">Frontier</option>
+          </select>
+        </div>
+        <div id="filterForRegion" class="filterDiv">
+          <p id="filterForRegionTxt" class="selectorTxt">Filter for Region:</p>
+          <select id="regionFilter" class="selector">
+            <option value="noFilter">--Select Filter--</option>
+            <option value="Americas">Americas</option>
+            <option value="Europe & Middle East">Europe & Middle East</option>
+            <option value="Asia">Asia</option>
+            <option value="Pacific">Pacific</option>
+            <option value="Emerging Markets">Emerging Markets</option>
+            <option value="World">World</option>
+          </select>
+        </div>
+      </div>
+      <div id="userlistArea">
+        <div id="indexTarget"></div>
+        <div id="selectedIndexArea">
+          <h2 id="selectedExchangeHeadline">Dine Valgte Børser</h2>
+          <div id="exchangeList">
+            <div id="exchangeTarget1" class="exchangeItem"></div>
+            <div id="exchangeTarget2" class="exchangeItem"></div>
+            <div id="exchangeTarget3" class="exchangeItem"></div>
+          </div>
+          <h2 id="indexListHeadline">Dine Valgte Index:</h2>
+          <div id="indexList"></div>
+          <a href="https://www.fundstower.com/ydelser/">
+            <div id="returnButton">
+              <p>Retur til Hjemmeside</p>
+            </div>
+          </a>
+          <a href="">
+            <div id="continueButton">
+              <p>Fortsæt til betaling</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="overview.js"></script>
+</html>

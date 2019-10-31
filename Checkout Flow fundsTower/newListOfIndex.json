@@ -1,0 +1,2324 @@
+[
+  {
+    "": "INDX",
+    "Ticker": "GSPC",
+    "indexName": "S&P 500",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "GDAXI",
+    "indexName": "DAX Index",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SSEC",
+    "indexName": "Shanghai Composite",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Shanghai"
+  },
+  {
+    "": "INDX",
+    "Ticker": "MERV",
+    "indexName": "S&P Merval",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Buenos Aires"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FTSE",
+    "indexName": "FTSE 100 Index (UK)",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "London"
+  },
+  {
+    "": "INDX",
+    "Ticker": "AORD",
+    "indexName": "Australia All Ordinaries",
+    "Region": "Pacific",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Sydney"
+  },
+  {
+    "": "INDX",
+    "Ticker": "BSESN",
+    "indexName": "BSE Sensex 30",
+    "Region": "Emerging Markets",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Bombay"
+  },
+  {
+    "": "INDX",
+    "Ticker": "VIX",
+    "indexName": "CBOE Volatility Index",
+    "Region": "Americas",
+    "Category": "Volatility",
+    "marketStatus": "Developed",
+    "Exchange": "Chicago"
+  },
+  {
+    "": "INDX",
+    "Ticker": "HSI",
+    "indexName": "Hang Seng Index (Hong Kong)",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Hong Kong"
+  },
+  {
+    "": "INDX",
+    "Ticker": "GSPTSE",
+    "indexName": "S&P TSX Composite Index (Canada)",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Toronto"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FCHI",
+    "indexName": "CAC 40",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Paris"
+  },
+  {
+    "": "INDX",
+    "Ticker": "TA100",
+    "indexName": "Tel Aviv 100 Index",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Tel Aviv"
+  },
+  {
+    "": "INDX",
+    "Ticker": "WILREIT",
+    "indexName": "Wilshire US REIT Index",
+    "Region": "Americas",
+    "Category": "Real Estate",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "W5KMCG",
+    "indexName": "Wilshire US Mid Cap Growth",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "IBEX",
+    "indexName": "IBEX 35 Index",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Madrid"
+  },
+  {
+    "": "INDX",
+    "Ticker": "W5KLCV",
+    "indexName": "Wilshire US Large Cap Value",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SSMI",
+    "indexName": "Swiss Market Index",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Zürich"
+  },
+  {
+    "": "INDX",
+    "Ticker": "OEX",
+    "indexName": "S&P 100",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "RUI",
+    "indexName": "Russell 1000",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "XAX",
+    "indexName": "NYSE AMEX Composite",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "WILRESI",
+    "indexName": "Wilshire US Real Estate Securities Index",
+    "Region": "Americas",
+    "Category": "Real Estate",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "NZ50",
+    "indexName": "NEW ZEALAND EXCH NZSX 50 FREE IDX",
+    "Region": "Pacific",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Wellington, New Zealand"
+  },
+  {
+    "": "INDX",
+    "Ticker": "UTY",
+    "indexName": "PHLX Utility",
+    "Region": "Americas",
+    "Category": "Utility",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "CSE",
+    "indexName": "CSE All-Share",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Frontier",
+    "Exchange": "Colombo, Sri Lanka"
+  },
+  {
+    "": "INDX",
+    "Ticker": "XOI",
+    "indexName": "ARCA Oil",
+    "Region": "Americas",
+    "Category": "Oil",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "OSX",
+    "indexName": "PHLX Oil Service",
+    "Region": "Americas",
+    "Category": "Oil",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "XAL",
+    "indexName": "ARCA Airline",
+    "Region": "Americas",
+    "Category": "Airline",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "W5KSCG",
+    "indexName": "Wilshire US Small Cap Growth",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "TWII",
+    "indexName": "Taiwan Weighted",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Taiwan"
+  },
+  {
+    "": "INDX",
+    "Ticker": "ATX",
+    "indexName": "Austrian Traded Index in EUR",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Wien"
+  },
+  {
+    "": "INDX",
+    "Ticker": "NWX",
+    "indexName": "ARCA Networking",
+    "Region": "Americas",
+    "Category": "Communication",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "W5KSCV",
+    "indexName": "Wilshire US Small Cap Value",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "W5KMCV",
+    "indexName": "Wilshire US Mid Cap Value",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "WGREIT",
+    "indexName": "Wilshire Global REIT Index",
+    "Region": "World",
+    "Category": "Real Estate",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SML",
+    "indexName": "S&P Small-Cap 600 Index",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "RUT",
+    "indexName": "Russell 2000 Index",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Chicago"
+  },
+  {
+    "": "INDX",
+    "Ticker": "JKSE",
+    "indexName": "Jakarta Stock Exchange Composite Index",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Jakarta"
+  },
+  {
+    "": "INDX",
+    "Ticker": "BFX",
+    "indexName": "BEL-20 INDEX",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Bruxelles"
+  },
+  {
+    "": "INDX",
+    "Ticker": "XBD",
+    "indexName": "ARCA Securities Broker",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "RUA",
+    "indexName": "Russell 3000 Index",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Chicago"
+  },
+  {
+    "": "INDX",
+    "Ticker": "XII",
+    "indexName": "ARCA Institutional",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "IETP",
+    "indexName": "ISEQ 20 Price",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Dublin"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DRG",
+    "indexName": "ARCA Pharmaceutical",
+    "Region": "Americas",
+    "Category": "Pharmaceutical",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "W5000",
+    "indexName": "Wilshire 5000 Total Market Full Cap",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "HGX",
+    "indexName": "PHLX Housing",
+    "Region": "Americas",
+    "Category": "Housing construction",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "MXX",
+    "indexName": "Mexico S&P/BMV IPC",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Bolsa, Mexico"
+  },
+  {
+    "": "INDX",
+    "Ticker": "W5KLCG",
+    "indexName": "Wilshire US Large Cap Growth",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "STI",
+    "indexName": "FTSE Straits Times Singapore",
+    "Region": "Pacific",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Singapore"
+  },
+  {
+    "": "INDX",
+    "Ticker": "AEX",
+    "indexName": "AEX Amsterdam Index",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Amsterdam"
+  },
+  {
+    "": "INDX",
+    "Ticker": "NYA",
+    "indexName": "NYSE Composite",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "XMI",
+    "indexName": "ARCA Major Markets",
+    "Region": "Americas",
+    "Category": "Blue chip",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "BTK",
+    "indexName": "ARCA Biotechnology",
+    "Region": "Americas",
+    "Category": "Biotechnology",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "MID",
+    "indexName": "S&P Midcap 400",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "HUI",
+    "indexName": "ARCA Gold BUGS",
+    "Region": "World",
+    "Category": "Gold mining",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SOX",
+    "indexName": "Philadelphia Semiconductor Index",
+    "Region": "Americas",
+    "Category": "Semiconductor",
+    "marketStatus": "Developed",
+    "Exchange": "Philadelphia"
+  },
+  {
+    "": "INDX",
+    "Ticker": "HCX",
+    "indexName": "CBOE S&P Healthcare Index",
+    "Region": "Americas",
+    "Category": "Healthcare",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "XCI",
+    "indexName": "ARCA Computer Technology",
+    "Region": "Americas",
+    "Category": "Computer Industry",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "XNG",
+    "indexName": "ARCA Natural Gas",
+    "Region": "Americas",
+    "Category": "Natural Gas",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "WGRESI",
+    "indexName": "Wilshire Global Real Estate Securities Index",
+    "Region": "Americas",
+    "Category": "Real Estate",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "N225",
+    "indexName": "Nikkei 225 Index",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Tokyo"
+  },
+  {
+    "": "INDX",
+    "Ticker": "MXY",
+    "indexName": "ARCA Mexico",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "OSEAX",
+    "indexName": "Oslo All Share",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Oslo"
+  },
+  {
+    "": "INDX",
+    "Ticker": "TYX",
+    "indexName": "Treasury Yield 30 Years Index",
+    "Region": "Americas",
+    "Category": "Bonds",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DJI",
+    "indexName": "Dow Jones Industrial Average",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "IRX",
+    "indexName": "13-week Treasury Bill Index",
+    "Region": "Americas",
+    "Category": "Bonds",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FVX",
+    "indexName": "Treasury Yield 5 Years Index",
+    "Region": "Americas",
+    "Category": "Bonds",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "NYI",
+    "indexName": "NYSE International 100 Index",
+    "Region": "World",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "NSEI",
+    "indexName": "Nifty 50",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Bombay"
+  },
+  {
+    "": "INDX",
+    "Ticker": "NYY",
+    "indexName": "NYSE TMT Index",
+    "Region": "Americas",
+    "Category": "TMT",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SPSUPX",
+    "indexName": "S&P Composite 1500 Index",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "BVSP",
+    "indexName": "Bovespa",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "São Paulo"
+  },
+  {
+    "": "INDX",
+    "Ticker": "ISEQ",
+    "indexName": "ISEQ Overall",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Dublin"
+  },
+  {
+    "": "INDX",
+    "Ticker": "JPN",
+    "indexName": "ARCA Japan",
+    "Region": "Pacific",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Tokyo"
+  },
+  {
+    "": "INDX",
+    "Ticker": "NYL",
+    "indexName": "NYSE World Leaders Index",
+    "Region": "World",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "TNX",
+    "indexName": "CBOE Interest Rate 10-Year T-Note Index",
+    "Region": "Americas",
+    "Category": "Bonds",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "NY",
+    "indexName": "NYSE US 100 Index",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "GVZ",
+    "indexName": "CBOE Gold Volatility",
+    "Region": "World",
+    "Category": "Gold",
+    "marketStatus": "Developed",
+    "Exchange": "Chicago"
+  },
+  {
+    "": "INDX",
+    "Ticker": "IMUS",
+    "indexName": "Dow Jones Islamic Market US",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DJT",
+    "indexName": "Dow Jones Transportation",
+    "Region": "Americas",
+    "Category": "Transportation",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DJUSM",
+    "indexName": "Dow Jones Mid-Cap",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "IMXL",
+    "indexName": "Dow Jones Islamic Market Titans 100",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "XLHK",
+    "indexName": "Dow Jones Hong Kong Titans 30",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DJU",
+    "indexName": "Dow Jones Utility",
+    "Region": "Americas",
+    "Category": "Utility",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DWCOGS",
+    "indexName": "DWCOGS: Dow Jones U.S. Oil & Gas Tota",
+    "Region": "Americas",
+    "Category": "Oil",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DJUSST",
+    "indexName": "Dow Jones Iron & Steel",
+    "Region": "Americas",
+    "Category": "Steel",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "PSE",
+    "indexName": "ARCA Technology 100",
+    "Region": "Americas",
+    "Category": "Technology",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "RCI",
+    "indexName": "Dow Jones Composite All REIT",
+    "Region": "Americas",
+    "Category": "Real Estate",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DJUSL",
+    "indexName": "Dow Jones Large-Cap",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DJAT",
+    "indexName": "Dow Jones Asian Titans 50 USD",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DJUS",
+    "indexName": "Dow Jones US",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DWMI",
+    "indexName": "DWMI: Dow Jones U.S. Micro-Cap Tota",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DJUSS",
+    "indexName": "Dow Jones Small-Cap",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "OMX",
+    "indexName": "OMXS 30 Index",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Stockholm"
+  },
+  {
+    "": "INDX",
+    "Ticker": "STOXX50E",
+    "indexName": "EuroStoxx 50 Index",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FTAS",
+    "indexName": "FTSE All-Share",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "London"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FTWIHUNL",
+    "indexName": "FTSE Hungary Index",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Budapest"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FTWITURL",
+    "indexName": "FTSE Turkey Index",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Istanbul"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FTWITHAL",
+    "indexName": "FTSE Thailand Index",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Bangkok"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FTWIPOLL",
+    "indexName": "FTSE Poland Index",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Warsaw"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FTWICZHL",
+    "indexName": "FTSE Czech Republic Index",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Prague"
+  },
+  {
+    "": "INDX",
+    "Ticker": "IXE",
+    "indexName": "IXE: Select Sector Spdr-energy Index",
+    "Region": "Americas",
+    "Category": "Energy",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "IXIC",
+    "indexName": "NASDAQ Composite",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SPEUP",
+    "indexName": "S&P EUROPE 350",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "KOSDAQ",
+    "indexName": "Kosdaq Composite Index",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Seoul"
+  },
+  {
+    "": "INDX",
+    "Ticker": "OMXC20",
+    "indexName": "OMX Copenhagen 20 Index",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Copenhagen"
+  },
+  {
+    "": "INDX",
+    "Ticker": "RMZ",
+    "indexName": "MSCI US REIT Index",
+    "Region": "Americas",
+    "Category": "Real Estate",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "PSI20",
+    "indexName": "PSI 20 Stock Index",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DJUSFN",
+    "indexName": "DJUSFN: Dow Jones U.S. Financials Index",
+    "Region": "Americas",
+    "Category": "Financial",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DJTMDI",
+    "indexName": "DJTMDI: Dow Jones Media Titans 30 Index",
+    "Region": "Americas",
+    "Category": "Media",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DJASDT",
+    "indexName": "DJASDT: Dow Jones Asia Select Dividend",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "RTSI",
+    "indexName": "RTSI Index (Russia)",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Mosow"
+  },
+  {
+    "": "INDX",
+    "Ticker": "NBI",
+    "indexName": "NASDAQ Biotechnology",
+    "Region": "Americas",
+    "Category": "Biotechnology",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "MDAXI",
+    "indexName": "DAX Midcap",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "TECDAX",
+    "indexName": "TecDAX",
+    "Region": "Europe & Middle East",
+    "Category": "Technology",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "CEX",
+    "indexName": "Chemicals Index",
+    "Region": "Americas",
+    "Category": "Chemicals",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "EVZ",
+    "indexName": "CBOE Euro Currency Volatility",
+    "Region": "Europe & Middle East",
+    "Category": "Volatility",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "KLSE",
+    "indexName": "FTSE Malaysia KLCI",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Kuala Lumpur"
+  },
+  {
+    "": "INDX",
+    "Ticker": "NDX",
+    "indexName": "Nasdaq 100",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "RVX",
+    "indexName": "Cboe Russell 2000 Volatility Index",
+    "Region": "Americas",
+    "Category": "Volatility",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "STOXX",
+    "indexName": "Europe Stoxx 600",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "TR20",
+    "indexName": "Dow Jones Turkey Titans 20",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Istanbul"
+  },
+  {
+    "": "INDX",
+    "Ticker": "TR20D",
+    "indexName": "Dow Jones Turkey Titans 20",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Istanbul"
+  },
+  {
+    "": "INDX",
+    "Ticker": "VXD",
+    "indexName": "DJIA Volatility",
+    "Region": "Americas",
+    "Category": "Volatility",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "VXN",
+    "indexName": "CBOE NASDAQ 100 Volatility",
+    "Region": "Americas",
+    "Category": "Volatility",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "VXO",
+    "indexName": "CBOE OEX Implied Volatility",
+    "Region": "Americas",
+    "Category": "Volatility",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "VXV",
+    "indexName": "CBOE S&P500 3 M Volitlity",
+    "Region": "Americas",
+    "Category": "Volatility",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "XAG",
+    "indexName": "Stlmt ID PHLX Gold/Silver Sector",
+    "Region": "Americas",
+    "Category": "Gold",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "BXMD",
+    "indexName": "CBOE S&P 500 30-Delta BuyWrite",
+    "Region": "Americas",
+    "Category": "Volatility",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "LOVOL",
+    "indexName": "CBOE Low Volatility",
+    "Region": "Americas",
+    "Category": "Volatility",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "PUT",
+    "indexName": "CBOE S&P 500 PutWrite Index",
+    "Region": "Americas",
+    "Category": "Volatility",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "VVIX",
+    "indexName": "CBOE Vix Volatility",
+    "Region": "Americas",
+    "Category": "Volatility",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "VXEWZ",
+    "indexName": "CBOE Brazil Etf Volatility",
+    "Region": "Americas",
+    "Category": "Volatility",
+    "marketStatus": "Emerging",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "VXGS",
+    "indexName": "CBOE Equity VIX on Goldman Sachs",
+    "Region": "Americas",
+    "Category": "Volatility",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "VXTH",
+    "indexName": "CBOE Vix Tail Hedge",
+    "Region": "Americas",
+    "Category": "Volatility",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "VXXLE",
+    "indexName": "CBOE Energy Sector Etf Volitlity",
+    "Region": "Americas",
+    "Category": "Volatility",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "XAU",
+    "indexName": "Philadelphia Gold/Silver",
+    "Region": "Americas",
+    "Category": "Gold",
+    "marketStatus": "Developed",
+    "Exchange": "Philadelphia"
+  },
+  {
+    "": "INDX",
+    "Ticker": "OMXN40",
+    "indexName": "OMX Nordic 40",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Copenhagen"
+  },
+  {
+    "": "INDX",
+    "Ticker": "OMXC20CAP",
+    "indexName": "Copenhagen 20 CAP",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Copenhagen"
+  },
+  {
+    "": "INDX",
+    "Ticker": "OMXS30",
+    "indexName": "OMX Stockholm 30",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Stockholm"
+  },
+  {
+    "": "INDX",
+    "Ticker": "OMXH25",
+    "indexName": "OMX Helsinki 25",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Helsinki"
+  },
+  {
+    "": "INDX",
+    "Ticker": "OMXCMCPI",
+    "indexName": "OMX Copenhagen Mid Cap",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Copenhagen"
+  },
+  {
+    "": "INDX",
+    "Ticker": "OMXCSCPI",
+    "indexName": "OMX Copenhagen Small Cap",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Copenhagen"
+  },
+  {
+    "": "INDX",
+    "Ticker": "OMXCLCPI",
+    "indexName": "OMX Copenhagen Large Cap PI",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SP500TR",
+    "indexName": "S&P 500 (TR)",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "UKX",
+    "indexName": "FTSE 100 INDEX",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "London"
+  },
+  {
+    "": "INDX",
+    "Ticker": "BEL20",
+    "indexName": "BEL-20 INDEX",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SGLY",
+    "indexName": "S&P GLOBAL 1200",
+    "Region": "World",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SPGSCLP",
+    "indexName": "S&P GSCI Crude Oil Index Excess",
+    "Region": "Americas",
+    "Category": "Oil",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SPGSCI",
+    "indexName": "S&P Goldman Sachs Commodity Index",
+    "Region": "Americas",
+    "Category": "Commodity",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "V2TX",
+    "indexName": "STOXX 50 Volatility VSTOXX EUR",
+    "Region": "Europe & Middle East",
+    "Category": "Volatility",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "HSCE",
+    "indexName": "Hang Seng China Enterprise (CEI)",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Hang Seng"
+  },
+  {
+    "": "INDX",
+    "Ticker": "OVX",
+    "indexName": "CBOE Crude Oil Volatility",
+    "Region": "Americas",
+    "Category": "Oil",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FTMC",
+    "indexName": "FTSE 250",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "London"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FTLC",
+    "indexName": "FTSE 350",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "London"
+  },
+  {
+    "": "INDX",
+    "Ticker": "RAG",
+    "indexName": "RUSSELL 3000 GROWTH IDX",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "RUO",
+    "indexName": "RUSSELL 2000 GROWTH IDX",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DJARB50",
+    "indexName": "Dow Jones Arabia Titans 50",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DWRSF",
+    "indexName": "Dow Jones US Select Real Estate Securities",
+    "Region": "Americas",
+    "Category": "Real Estate",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "RLG",
+    "indexName": "RUSSELL 1000 GROWTH INDX",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "RLV",
+    "indexName": "RUSSELL 1000 VALUE INDEX",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SPGSSINR",
+    "indexName": "S&P N AMER NAT RES",
+    "Region": "Americas",
+    "Category": "Natural Resources",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SPSIOP",
+    "indexName": "S&P OIL GAS EXPLOR PROD",
+    "Region": "Americas",
+    "Category": "Oil",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SPSIRE",
+    "indexName": "S&P RETAIL SELECT INDUST",
+    "Region": "Americas",
+    "Category": "Retail",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SPVQDTR",
+    "indexName": "S&P 500 Dynamic VEQTOR Total Return",
+    "Region": "Americas",
+    "Category": "Volatility",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "BCOMTR",
+    "indexName": "Bloomberg Commodity TR",
+    "Region": "Americas",
+    "Category": "Commodity",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DJUSEN",
+    "indexName": "Dow Jones Oil & Gas",
+    "Region": "Americas",
+    "Category": "Oil",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "OBX",
+    "indexName": "OBX STOCK INDEX",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Oslo"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SCXE",
+    "indexName": "ESTX Sml EUR Pr",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SX7E",
+    "indexName": "ESTX Banks EUR Pr",
+    "Region": "Europe & Middle East",
+    "Category": "Banks",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SXDE",
+    "indexName": "ESTX HealthCare EUR Pr",
+    "Region": "Europe & Middle East",
+    "Category": "Healthcare",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SXKE",
+    "indexName": "ESTX Telecomm EUR Pr",
+    "Region": "Europe & Middle East",
+    "Category": "Telecommunication",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "WIG",
+    "indexName": "WSE WIG INDEX",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Warsaw"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DXY",
+    "indexName": "US Dollar Index",
+    "Region": "Americas",
+    "Category": "Currency",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FBMKLCI",
+    "indexName": "FTSE Bursa Malaysia KLCI",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Kuala Lumpur"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FBMEMAS",
+    "indexName": "FTSE Bursa Malaysia EMAS Index",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Kuala Lumpur"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FBM70",
+    "indexName": "FTSE Bursa Malaysia Mid 70 Index",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Kuala Lumpur"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FBM100",
+    "indexName": "FTSE Bursa Malaysia 100 Index",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Kuala Lumpur"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FBMSCAP",
+    "indexName": "FTSE Bursa Malaysia Small Cap Index",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Kuala Lumpur"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FBMFLG",
+    "indexName": "FTSE Bursa Malaysia Fledgling Index",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Kuala Lumpur"
+  },
+  {
+    "": "INDX",
+    "Ticker": "JTOPI",
+    "indexName": "JSE FTSE Top 40",
+    "Region": "Africa",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Cape Town"
+  },
+  {
+    "": "INDX",
+    "Ticker": "TOPXDV",
+    "indexName": "Topix DV",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "London"
+  },
+  {
+    "": "INDX",
+    "Ticker": "JPXNK400",
+    "indexName": "JPX-Nikkei 400",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Tokyo"
+  },
+  {
+    "": "INDX",
+    "Ticker": "OMXC25",
+    "indexName": "OMX Copenhagen 25 Index",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Copenhagen"
+  },
+  {
+    "": "INDX",
+    "Ticker": "MXAP",
+    "indexName": "MSCI AC Asia Pacific Index",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Tokyo"
+  },
+  {
+    "": "INDX",
+    "Ticker": "NYATR",
+    "indexName": "NYSE Composite Total Return",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "XU100",
+    "indexName": "BIST 100",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Istanbul"
+  },
+  {
+    "": "INDX",
+    "Ticker": "EWN",
+    "indexName": "iShares MSCI Netherlands Index",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Amsterdam"
+  },
+  {
+    "": "INDX",
+    "Ticker": "ACWI",
+    "indexName": "MSCI International ACWI Net Index US",
+    "Region": "World",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "MSCI"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SPMIB",
+    "indexName": "FTSE MIB IDX",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "London"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SPI20",
+    "indexName": "SPI 20 PR INDEX",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "VIX3M",
+    "indexName": "CBOE S&P 500 3 Month Volatility",
+    "Region": "Americas",
+    "Category": "Volatility",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "TXBE",
+    "indexName": "S&P/TSX Equal Weight Global Base",
+    "Region": "Americas",
+    "Category": "Metal",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "US2Y",
+    "indexName": "U.S. 2 Year Treasury",
+    "Region": "Americas",
+    "Category": "Bonds",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SXIE",
+    "indexName": "STOXX Insurance EUR Price",
+    "Region": "Europe & Middle East",
+    "Category": "Insurance",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "MSCIWCONSDISC",
+    "indexName": "MSCI World Consumer Discretionary",
+    "Region": "World",
+    "Category": "Consumer",
+    "marketStatus": "Developed",
+    "Exchange": "MSCI"
+  },
+  {
+    "": "INDX",
+    "Ticker": "MSCIWCONSSTAP",
+    "indexName": "MSCI World Consumer Staples",
+    "Region": "World",
+    "Category": "Consumer",
+    "marketStatus": "Developed",
+    "Exchange": "MSCI"
+  },
+  {
+    "": "INDX",
+    "Ticker": "MSCIWENERGY",
+    "indexName": "MSCI World Energy",
+    "Region": "World",
+    "Category": "Energy",
+    "marketStatus": "Developed",
+    "Exchange": "MSCI"
+  },
+  {
+    "": "INDX",
+    "Ticker": "MSCIWFIN",
+    "indexName": "MSCI World Financials",
+    "Region": "World",
+    "Category": "Financial",
+    "marketStatus": "Developed",
+    "Exchange": "MSCI"
+  },
+  {
+    "": "INDX",
+    "Ticker": "MSCIWHEALTH",
+    "indexName": "MSC World Healthcare",
+    "Region": "World",
+    "Category": "Healthcare",
+    "marketStatus": "Developed",
+    "Exchange": "MSCI"
+  },
+  {
+    "": "INDX",
+    "Ticker": "MSCIWIND",
+    "indexName": "MSCI World Industrials",
+    "Region": "World",
+    "Category": "Industrial",
+    "marketStatus": "Developed",
+    "Exchange": "MSCI"
+  },
+  {
+    "": "INDX",
+    "Ticker": "MSCIWINFTECH",
+    "indexName": "MSCI World Information Technologie",
+    "Region": "World",
+    "Category": "Information",
+    "marketStatus": "Developed",
+    "Exchange": "MSCI"
+  },
+  {
+    "": "INDX",
+    "Ticker": "MSCIWMAT",
+    "indexName": "MSCI World Materials",
+    "Region": "World",
+    "Category": "Materials",
+    "marketStatus": "Developed",
+    "Exchange": "MSCI"
+  },
+  {
+    "": "INDX",
+    "Ticker": "MSCIWUTIL",
+    "indexName": "MSCI World Utilities",
+    "Region": "World",
+    "Category": "Utility",
+    "marketStatus": "Developed",
+    "Exchange": "MSCI"
+  },
+  {
+    "": "INDX",
+    "Ticker": "MSCIUSA",
+    "indexName": "MSCI USA",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FSTSM9",
+    "indexName": "STOXX 600 Basis Resources",
+    "Region": "Europe & Middle East",
+    "Category": "Basic resources",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FSTOM9",
+    "indexName": "STOXX 600 Food & Beverages",
+    "Region": "Europe & Middle East",
+    "Category": "Food & Beverages",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FSTAM9",
+    "indexName": "STOXX 600 Automobiles & Part",
+    "Region": "Europe & Middle East",
+    "Category": "Automobiles",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FSTHM9",
+    "indexName": "STOXX 600 Healthcare",
+    "Region": "Europe & Middle East",
+    "Category": "Healthcare",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FSTGM9",
+    "indexName": "STOXX 600 Industrial G&S",
+    "Region": "Europe & Middle East",
+    "Category": "Industrial",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FSTBM9",
+    "indexName": "STOXX 600 Banks",
+    "Region": "Europe & Middle East",
+    "Category": "Banks",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FSTYM9",
+    "indexName": "STOXX 600 Technology",
+    "Region": "Europe & Middle East",
+    "Category": "Technology",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FSTUM9",
+    "indexName": "STOXX 600 Utilities",
+    "Region": "Europe & Middle East",
+    "Category": "Utility",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FSTNM9",
+    "indexName": "STOXX 600 Construction & Mat",
+    "Region": "Europe & Middle East",
+    "Category": "Construction",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FSTTM9",
+    "indexName": "STOXX 600 Telecommunications",
+    "Region": "Europe & Middle East",
+    "Category": "Telecommunication",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FSTRM9",
+    "indexName": "STOXX 600 Retail",
+    "Region": "Europe & Middle East",
+    "Category": "Retail",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FSTCM9",
+    "indexName": "STOXX 600 Chemicals",
+    "Region": "Europe & Middle East",
+    "Category": "Chemicals",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FSTZM9",
+    "indexName": "STOXX 600 Personal & Household",
+    "Region": "Europe & Middle East",
+    "Category": "Personal & Household",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FSTEM9",
+    "indexName": "STOXX 600 Energy",
+    "Region": "Europe & Middle East",
+    "Category": "Energy",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FSTIM9",
+    "indexName": "STOXX 600 Insurance",
+    "Region": "Europe & Middle East",
+    "Category": "Insurance",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FSTFM9",
+    "indexName": "STOXX 600 Financial Services",
+    "Region": "Europe & Middle East",
+    "Category": "Financial",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FSTMM9",
+    "indexName": "STOXX 600 Media",
+    "Region": "Europe & Middle East",
+    "Category": "Media",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FSTVM9",
+    "indexName": "STOXX 600 Travel & Leisure",
+    "Region": "Europe & Middle East",
+    "Category": "Travel & Leisure",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "FMCEM9",
+    "indexName": "EURO STOXX Mid",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SMIM",
+    "indexName": "Swiss Mid Price",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Zürich"
+  },
+  {
+    "": "INDX",
+    "Ticker": "CDAXX",
+    "indexName": "DAX Composite Index",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "0O7N",
+    "indexName": "SCALE ALL SHARE GR EUR",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "RUJ",
+    "indexName": "Russell 2000 Value",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "PSEI",
+    "indexName": "THE PHILIPPINE STOCK EXC PSEI INDEX",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Manila"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SPBLPGPT",
+    "indexName": "S&P/BVL Peru General Index TR",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Emerging",
+    "Exchange": "Lima"
+  },
+  {
+    "": "INDX",
+    "Ticker": "MSCIEU",
+    "indexName": "MSCI EUROPE",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "MSCI"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SSHI",
+    "indexName": "Swiss Performance Index",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Zürich"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SPI2C",
+    "indexName": "SPI 20 TR INDEX",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Zürich"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SP500BDT",
+    "indexName": "S&P 500 Bond Index",
+    "Region": "Americas",
+    "Category": "Bonds",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SP5MAIGT",
+    "indexName": "S&P 500/MarketAxess Investment Grade Corporate Bond Index",
+    "Region": "Americas",
+    "Category": "Bonds",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "3LHE",
+    "indexName": "ESTX 50 CORPORATE BOND TR",
+    "Region": "Europe & Middle East",
+    "Category": "Bonds",
+    "marketStatus": "Developed",
+    "Exchange": "Frankfurt"
+  },
+  {
+    "": "INDX",
+    "Ticker": "BMYOT",
+    "indexName": "Morningstar US Bond Market Yield-Optimized TR",
+    "Region": "Americas",
+    "Category": "Bonds",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "IDCOTCTR",
+    "indexName": "ICE U.S Treasury Core Bond TR Index",
+    "Region": "Americas",
+    "Category": "Bonds",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "NTUICB",
+    "indexName": "Northern Trust Investment Grade US Corporate Bond Index",
+    "Region": "Americas",
+    "Category": "Bonds",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "NTUHCB",
+    "indexName": "Northern Trust High Yield US Corporate Bond Index",
+    "Region": "Americas",
+    "Category": "Bonds",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "NTUCCB",
+    "indexName": "Northern Trust Credit-Scored US Corporate Bond Index",
+    "Region": "Americas",
+    "Category": "Bonds",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SPXVTR",
+    "indexName": "S&P 500 Value Total Return",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "WILREITTR",
+    "indexName": "Wilshire US REIT Total Return I",
+    "Region": "Americas",
+    "Category": "Real Estate",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "UKXDUK",
+    "indexName": "FTSE 100 Total Return Declared",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "London"
+  },
+  {
+    "": "INDX",
+    "Ticker": "REIT",
+    "indexName": "DOW JONES EQUITY ALL REIT TOTAL RETURN INDEX",
+    "Region": "Americas",
+    "Category": "Real Estate",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DWRTFT",
+    "indexName": "Dow Jones U.S. Select REIT Total Return Index",
+    "Region": "Americas",
+    "Category": "Real Estate",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DWST",
+    "indexName": "Dow Jones U.S. Small-Cap Total Stock Market Total Return Index",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "UKXNUK",
+    "indexName": "FTSE 100 Net Dividend Total Return Index",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "London"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SP5IGBIT",
+    "indexName": "S&P 500 INVESTMENT GRADE CORPORATE BOND INDEX",
+    "Region": "Americas",
+    "Category": "Bonds",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "RGBITR",
+    "indexName": "Russian Government Bond Index",
+    "Region": "Europe & Middle East",
+    "Category": "Bonds",
+    "marketStatus": "Emerging",
+    "Exchange": "Mosow"
+  },
+  {
+    "": "INDX",
+    "Ticker": "RUCBITR",
+    "indexName": "Moex Corporate Bond Index",
+    "Region": "Europe & Middle East",
+    "Category": "Bonds",
+    "marketStatus": "Emerging",
+    "Exchange": "Mosow"
+  },
+  {
+    "": "INDX",
+    "Ticker": "US10Y",
+    "indexName": "U.S. 10 Year Treasury",
+    "Region": "Americas",
+    "Category": "Bonds",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "DVG",
+    "indexName": "NASDAQ US Dividend Achievers Select",
+    "Region": "Americas",
+    "Category": "Bonds",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "OSLSFX",
+    "indexName": "OSLO Seafood Index",
+    "Region": "Europe & Middle East",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Oslo"
+  },
+  {
+    "": "INDX",
+    "Ticker": "VX",
+    "indexName": "S&P 500 VIX Futures",
+    "Region": "Americas",
+    "Category": "Volatility",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "US30",
+    "indexName": "Dow Jones 30 Futures",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "US500",
+    "indexName": "S&P 500 Futures",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "New York (NYSE)"
+  },
+  {
+    "": "INDX",
+    "Ticker": "RUITR",
+    "indexName": "Russell 1000 Total Return",
+    "Region": "Americas",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Nasdaq"
+  },
+  {
+    "": "INDX",
+    "Ticker": "SZSC",
+    "indexName": "SZSE Composite",
+    "Region": "Asia",
+    "Category": "Stock",
+    "marketStatus": "Developed",
+    "Exchange": "Shenzhen"
+  }
+]
