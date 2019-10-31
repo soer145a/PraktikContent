@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test Site for Funds Tower</title>
+    <link rel="stylesheet" href="output.css" />
+    <link
+      rel="shortcut icon"
+      href="imgs/Logo - udklip.JPG"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="logoArea">
+        <img src="imgs/Logo - udklip.JPG" alt="logo" id="logoImg" />
+        <p id="logoTxt">Funds Tower</p>
+      </div>
+    </header>
+    <main>
+      <div id="topHalf">
+        <div id="informationBlock">
+          <a href="index.html">
+            <div id="menuItem1">
+              <p>Frontpage</p>
+            </div></a
+          >
+
+          <a href="stockValue.html"
+            ><div id="menuItem2">
+              <p>Stock Value</p>
+            </div></a
+          >
+          <a href="portfolio.html"
+            ><div id="menuItem3">
+              <p>My Portfolio</p>
+            </div></a
+          >
+          <a href="valuta.html"
+            ><div id="menuItem4">
+              <p>Valuta</p>
+            </div></a
+          >
+          <a href="news.html"
+            ><div id="menuItem5">
+              <p>News</p>
+            </div></a
+          >
+          <a href=""
+            ><div id="menuItem6">
+              <p>Something?</p>
+            </div></a
+          >
+        </div>
+        <div id="displaySection">
+          <div id="graphBlock">
+            <div id="graphDisplayBoxFalse"><p id="falseTarget"></p></div>
+
+            <div id="addToPortBtn"><p>Add to Portfolio</p></div>
+            <div id="canvasContainer">
+              <canvas id="myChart" width="400" height="400"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="index.js"></script>
+</html>

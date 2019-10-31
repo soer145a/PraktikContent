@@ -1,0 +1,781 @@
+.reset, #signUpModal #signUpModalContent #lukSignUpModal p, #loginModal #signUpModalContent #lukLoginModal p, #displayBlock #sectorArea #reset p, #displayBlock #sectorArea #sectorSelector .sektorItem p, body, body header #logoArea #logoTxt, body header #userloginArea #logoutButton p, body header #userloginArea #login #loginText, body header #userloginArea #signup #signupText, body main #informationBlock div p, body main #displaySection #selectorBlock #selectorHead #selectorHeadline, body main #displaySection #graphBlock #graphDisplayBoxFalse #falseTarget, body main #displaySection #graphBlock #graphDisplayBoxFunds #fundsTarget, body main #displaySection #graphBlock #addToPortBtn p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.input {
+  width: 70%;
+  height: 2vw;
+  transition: 0.2s;
+  border: none;
+  transform: scale(1.2);
+  background-color: #e1f5f0;
+  height: 1vw;
+}
+
+.input:focus {
+  outline: none;
+  border-bottom: solid #1ed278 1px;
+}
+
+#signUpModal {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  transition: 0.3s;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#signUpModal #signUpModalContent {
+  width: 35%;
+  height: 80%;
+  background-color: #6e9691;
+  margin: auto;
+  margin-top: 4vw;
+  border-radius: 1vw;
+}
+
+#signUpModal #signUpModalContent #lukSignUpModal {
+  cursor: pointer;
+  position: absolute;
+  right: 33vw;
+  top: 5vw;
+  border-radius: 1vw;
+  background-color: #fa9146;
+  height: 1.5vw;
+  width: 1.5vw;
+}
+
+#signUpModal #signUpModalContent #lukSignUpModal p {
+  text-align: center;
+  position: relative;
+  top: 0.2vw;
+}
+
+#signUpModal #signUpModalContent #signUpModalH1 {
+  text-align: center;
+  position: relative;
+  top: 2vw;
+  font-size: 2.1vw;
+}
+
+#signUpModal #signUpModalContent #signUpModalH2 {
+  text-align: center;
+  position: relative;
+  top: 1vw;
+}
+
+#signUpModal #signUpModalContent #signUpForm {
+  position: relative;
+  top: 2vw;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 70%;
+  margin: auto;
+  height: 50%;
+  font-family: "Roboto", sans-serif;
+}
+
+#signUpModal #signUpModalContent #signUpForm .label {
+  position: relative;
+  left: 15%;
+}
+
+#signUpModal #signUpModalContent #signUpForm .label p {
+  font-size: 1.1vw;
+}
+
+#signUpModal #signUpModalContent #signUpbutton {
+  background-color: #1ed278;
+  width: 7vw;
+  position: relative;
+  transform: translateY(2vw);
+  left: 40%;
+  border-radius: 0.3vw;
+  cursor: pointer;
+  transition: 0.3s;
+  border: solid black 2px;
+}
+
+#signUpModal #signUpModalContent #signUpbutton:hover {
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#signUpModal #signUpModalContent #signUpbutton p {
+  text-align: center;
+}
+
+#signUpModal #signUpModalContent #signUpImg {
+  transform: translateY(2.5vw);
+  background-color: #6e9691;
+  margin: auto;
+  width: 10vw;
+}
+
+#signUpModal #signUpModalContent #signUpImg img {
+  width: 100%;
+}
+
+#loginModal {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  transition: 0.3s;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#loginModal #signUpModalContent {
+  width: 35%;
+  height: 80%;
+  background-color: #6e9691;
+  margin: auto;
+  margin-top: 4vw;
+  border-radius: 1vw;
+}
+
+#loginModal #signUpModalContent #lukLoginModal {
+  cursor: pointer;
+  position: absolute;
+  right: 33vw;
+  top: 5vw;
+  border-radius: 1vw;
+  background-color: #fa9146;
+  height: 1.5vw;
+  width: 1.5vw;
+}
+
+#loginModal #signUpModalContent #lukLoginModal p {
+  text-align: center;
+  position: relative;
+  top: 0.2vw;
+}
+
+#loginModal #signUpModalContent #signUpModalH1 {
+  text-align: center;
+  position: relative;
+  top: 2vw;
+  font-size: 2.1vw;
+}
+
+#loginModal #signUpModalContent #signUpModalH2 {
+  text-align: center;
+  position: relative;
+  top: 1vw;
+}
+
+#loginModal #signUpModalContent #inputContainer {
+  width: 80%;
+  margin: auto;
+}
+
+#loginModal #signUpModalContent #loginButton {
+  background-color: #fa9146;
+  width: 7vw;
+  position: relative;
+  transform: translateY(2vw);
+  left: 40%;
+  border-radius: 0.3vw;
+  cursor: pointer;
+  transition: 0.3s;
+  border: solid black 2px;
+}
+
+#loginModal #signUpModalContent #loginButton:hover {
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#loginModal #signUpModalContent #loginButton p {
+  text-align: center;
+}
+
+#loginModal #signUpModalContent #signUpImg {
+  transform: translateY(2.5vw);
+  background-color: #6e9691;
+  margin: auto;
+  width: 10vw;
+}
+
+#loginModal #signUpModalContent #signUpImg img {
+  width: 100%;
+}
+
+#portDisplayContainer {
+  position: absolute;
+  top: 30vh;
+  right: 2vw;
+  width: 10vw;
+  background-color: white;
+}
+
+#portDisplayContainer .portObj {
+  border: solid black 1px;
+  text-align: center;
+}
+
+.reset, #signUpModal #signUpModalContent #lukSignUpModal p, #loginModal #signUpModalContent #lukLoginModal p, #displayBlock #sectorArea #reset p, #displayBlock #sectorArea #sectorSelector .sektorItem p, body, body header #logoArea #logoTxt, body header #userloginArea #logoutButton p, body header #userloginArea #login #loginText, body header #userloginArea #signup #signupText, body main #informationBlock div p, body main #displaySection #selectorBlock #selectorHead #selectorHeadline, body main #displaySection #graphBlock #graphDisplayBoxFalse #falseTarget, body main #displaySection #graphBlock #graphDisplayBoxFunds #fundsTarget, body main #displaySection #graphBlock #addToPortBtn p {
+  margin: 0;
+  padding: 0;
+}
+
+#selectCountry {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  position: relative;
+  width: 100vw;
+  height: 2vw;
+}
+
+#selectCountry .countryItem {
+  background-color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#selectCountry .countryItem:hover {
+  background-color: teal;
+}
+
+#selectCountry .countryItem p {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 0.5vw;
+}
+
+#selectCountry .active {
+  background-color: teal;
+}
+
+#displayBlock {
+  width: 70vw;
+  height: 81.8vh;
+  margin: auto;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#displayBlock #headlineBlock {
+  width: 100%;
+}
+
+#displayBlock #headlineBlock #targeth1 {
+  font-size: 2.1vw;
+}
+
+#displayBlock #marketSelector {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  background-color: black;
+  height: 3vw;
+}
+
+#displayBlock #marketSelector .marketItem {
+  margin: auto;
+  cursor: pointer;
+}
+
+#displayBlock #marketSelector .marketItem p {
+  color: white;
+  margin: auto;
+  font-size: 1vw;
+}
+
+#displayBlock #marketSelector .marketItem p:hover {
+  color: #1ed278;
+}
+
+#displayBlock #sectorArea #reset {
+  position: relative;
+  cursor: pointer;
+  width: 8vw;
+  height: 3vw;
+  transition: 0.3s;
+  background-color: #14282d;
+}
+
+#displayBlock #sectorArea #reset:hover {
+  background-color: #fa9146;
+}
+
+#displayBlock #sectorArea #reset:hover p {
+  color: black;
+}
+
+#displayBlock #sectorArea #reset p {
+  text-align: center;
+  position: relative;
+  top: 0.8vw;
+  font-size: 1.1vw;
+  color: white;
+}
+
+#displayBlock #sectorArea #sectorSelector {
+  margin-top: 2vw;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 0.5vw;
+  grid-template-rows: 1fr 1fr;
+}
+
+#displayBlock #sectorArea #sectorSelector .sektorItem {
+  width: 12vw;
+  height: 3.1vw;
+  transition: 0.3s;
+  background-color: #6e9691;
+  border: solid 1px black;
+  box-sizing: border-box;
+  margin: auto;
+  cursor: pointer;
+}
+
+#displayBlock #sectorArea #sectorSelector .sektorItem p {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  text-align: center;
+  margin-top: 0.85vw;
+  font-size: 1.1vw;
+}
+
+#displayBlock #sectorArea #sectorSelector .sektorItem:hover {
+  background-color: #1ed278;
+}
+
+#displayBlock #stockDisplay {
+  margin-top: 2vw;
+}
+
+#displayBlock #stockDisplay #dataContainer {
+  width: 100%;
+  text-align: center;
+}
+
+#displayBlock #stockDisplay #dataContainer #tHeadBusiness {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1vw;
+  cursor: pointer;
+}
+
+#displayBlock #stockDisplay #dataContainer #tHeadBusiness:hover {
+  color: red;
+}
+
+#displayBlock #stockDisplay #dataContainer #tHeadValue {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1vw;
+  cursor: pointer;
+}
+
+#displayBlock #stockDisplay #dataContainer #tHeadValue:hover {
+  color: red;
+}
+
+#displayBlock #stockDisplay #dataContainer #tHeadRevenue {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1vw;
+  cursor: pointer;
+}
+
+#displayBlock #stockDisplay #dataContainer #tHeadRevenue:hover {
+  color: red;
+}
+
+#displayBlock #stockDisplay #dataContainer #tHeadPlus {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1vw;
+  cursor: pointer;
+}
+
+#displayBlock #stockDisplay #dataContainer #tHeadPlus:hover {
+  color: red;
+}
+
+#displayBlock #stockDisplay #dataContainer #companyObjTarget .tableRow {
+  border-collapse: collapse;
+  border: black 1px solid;
+  font-family: "Roboto", sans-serif;
+}
+
+#displayBlock #stockDisplay #dataContainer #companyObjTarget .tableRow:nth-child(even) {
+  background-color: #6e9691;
+}
+
+#displayBlock #stockDisplay #dataContainer #companyObjTarget .tableRow:nth-child(even):hover {
+  background-color: #1ed278;
+  cursor: pointer;
+}
+
+#displayBlock #stockDisplay #dataContainer #companyObjTarget .tableRow:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+#displayBlock #stockDisplay #dataContainer #companyObjTarget .tableRow:nth-child(odd):hover {
+  background-color: #1ed278;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#portfolio {
+  height: 85vh;
+}
+
+#portfolio #graphArea {
+  position: relative;
+  width: 60vw;
+  height: 40vh;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+}
+
+body header #logoArea {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background-color: #14282d;
+  height: 100%;
+  width: 20vw;
+  position: relative;
+  left: 10vw;
+}
+
+body header #logoArea #logoImg {
+  width: 80%;
+  position: relative;
+  left: 2vw;
+  top: 0.5vw;
+}
+
+body header #logoArea #logoTxt {
+  position: relative;
+  color: white;
+  text-align: center;
+  top: 1.5vw;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.1vw;
+  cursor: default;
+}
+
+body header #userloginArea {
+  position: relative;
+  height: 100%;
+  width: 40%;
+  z-index: 1;
+  left: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+body header #userloginArea #logoutButton {
+  background-color: #fa9146;
+  width: 60%;
+  height: 60%;
+  margin: auto;
+}
+
+body header #userloginArea #logoutButton p {
+  text-align: center;
+  margin-top: 0.7vw;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2vw;
+}
+
+body header #userloginArea #generatedH1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1vw;
+}
+
+body header #userloginArea #login {
+  width: 60%;
+  height: 40%;
+  margin: auto;
+  background-color: #fa9146;
+  border-radius: 0.4vw;
+  transition: 0.3s;
+}
+
+body header #userloginArea #login:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+body header #userloginArea #login #loginText {
+  width: 100%;
+  margin: 0.5vw 0vw 0vw 1.8vw;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9vw;
+}
+
+body header #userloginArea #signup {
+  width: 60%;
+  height: 40%;
+  margin: auto;
+  background-color: #1ed278;
+  border-radius: 0.4vw;
+  transition: 0.3s;
+}
+
+body header #userloginArea #signup:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+body header #userloginArea #signup #signupText {
+  width: 100%;
+  margin: 0.5vw 0vw 0vw 1.4vw;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9vw;
+}
+
+body main {
+  width: 100vw;
+  background-color: #e1f5f0;
+}
+
+body main #informationBlock {
+  position: relative;
+  width: 100vw;
+  height: 5vh;
+  background-color: #325a5a;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+body main #informationBlock a {
+  height: 5vh;
+  border: solid black 1px;
+  box-sizing: border-box;
+}
+
+body main #informationBlock div {
+  cursor: pointer;
+}
+
+body main #informationBlock div p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-top: 0.6vw;
+}
+
+body main #displaySection {
+  display: grid;
+  grid-template-columns: 1fr 3.5fr;
+  width: 100vw;
+  height: 85vh;
+}
+
+body main #displaySection #selectorBlock #selectorHead {
+  position: relative;
+  height: 3vw;
+  left: 3vw;
+}
+
+body main #displaySection #selectorBlock #selectorHead #selectorHeadline {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  top: 1vw;
+  font-size: 1.2vw;
+  color: #14282d;
+}
+
+body main #displaySection #selectorBlock #selectorSection {
+  overflow: scroll;
+  overflow-x: hidden;
+  position: relative;
+  left: 3vw;
+  background-color: white;
+  width: 15vw;
+  height: 60vh;
+}
+
+body main #displaySection #selectorBlock #selectorSection #companyBlock {
+  width: 100%;
+}
+
+body main #displaySection #selectorBlock #selectorSection #companyBlock .companyDiv {
+  border: solid 1px black;
+  cursor: pointer;
+}
+
+body main #displaySection #selectorBlock #selectorSection #companyBlock .companyDiv p {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+body main #displaySection #graphBlock #graphDisplayBoxFalse {
+  position: absolute;
+  width: 7.5vw;
+  height: 3vw;
+  background-color: #fa9146;
+  right: 1vw;
+  top: 27vw;
+  border-radius: 2vw;
+}
+
+body main #displaySection #graphBlock #graphDisplayBoxFalse #falseTarget {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2vw;
+  margin: 0.8vw 0vw 0vw 1.2vw;
+  pointer-events: none;
+}
+
+body main #displaySection #graphBlock #graphDisplayBoxFunds {
+  position: absolute;
+  width: 7.5vw;
+  height: 3vw;
+  background-color: #1ed278;
+  right: 1vw;
+  top: 33vw;
+  border-radius: 2vw;
+}
+
+body main #displaySection #graphBlock #graphDisplayBoxFunds #fundsTarget {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2vw;
+  margin: 0.8vw 0vw 0vw 1.2vw;
+  pointer-events: none;
+}
+
+body main #displaySection #graphBlock #canvasContainer {
+  position: relative;
+  height: 70vh;
+  width: 70vw;
+}
+
+body main #displaySection #graphBlock #addToPortBtn {
+  cursor: pointer;
+  width: 10vw;
+  height: 2vw;
+  background-color: #6e9691;
+  position: absolute;
+  right: 2vw;
+  top: 90vh;
+  transition: 0.2s;
+}
+
+body main #displaySection #graphBlock #addToPortBtn:hover {
+  transform: scale(1.05);
+}
+
+body main #displaySection #graphBlock #addToPortBtn p {
+  margin: 0.5vw 1vw 1vw 3vw;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+body main #bottomHalf {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+body main #bottomHalf #companyDisplayer {
+  overflow: scroll;
+  overflow-x: hidden;
+  background-color: #6e9691;
+  position: relative;
+  width: 100%;
+  height: 40vw;
+  left: 2vw;
+  top: 2vw;
+}
+
+body main #bottomHalf #companyDisplayer #companyTarget .portDiv {
+  border: black solid 2px;
+  margin: 1vw;
+  background-color: white;
+}
+
+body main #bottomHalf #companyDisplayer #companyTarget .portDiv p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3vw;
+}
+
+body main #bottomHalf #tableContainer {
+  background-color: #6e9691;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  height: 70%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+body main #bottomHalf #tableContainer #indexNumbers {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+body main #bottomHalf #tableContainer #indexNumbers #lockedRow {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1vw;
+}
+
+body main #bottomHalf #tableContainer #indexNumbers #tableBody .tableRow {
+  border: solid black 2px;
+  background-color: white;
+}
+
+body main #bottomHalf #tableContainer #indexNumbers #tableBody .tableRow:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+body main #bottomHalf #tableContainer #indexNumbers #tableBody .tableItem {
+  padding: 0.8vw 0vw 0.8vw 0;
+}

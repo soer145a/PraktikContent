@@ -1,0 +1,28 @@
+$primaerGroen: rgb(30, 210, 120);
+$lysOrange: rgba(250, 145, 70, 1);
+$midnatsBlaa: rgb(20, 40, 45);
+$blaaGroen: rgb(50, 90, 90);
+$stoevetBlaaGroen: rgb(110, 150, 145);
+$stoevetMintGroen: rgb(225, 245, 240);
+$testFont: "Roboto", sans-serif;
+h1 {
+  font-family: $testFont;
+}
+h2 {
+  font-family: $testFont;
+}
+p {
+  font-family: $testFont;
+}
+.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+#portfolio {
+  height: 85vh;
+  #graphArea {
+    position: relative;
+    width: 60vw;
+    height: 40vh;
+  }
+}

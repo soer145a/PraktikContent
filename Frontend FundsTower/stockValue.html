@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Current Stock Value</title>
+    <link rel="stylesheet" href="output.css" />
+    <link
+      rel="shortcut icon"
+      href="imgs/Logo - udklip.JPG"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="logoArea">
+        <img src="imgs/Logo - udklip.JPG" alt="logo" id="logoImg" />
+        <p id="logoTxt">Funds Tower</p>
+      </div>
+      <div id="userloginArea">
+        <div id="login">
+          <p id="loginText">
+            Login
+          </p>
+        </div>
+        <div id="signup">
+          <p id="signupText">
+            Sign Up
+          </p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="signUpModal" class="hide">
+        <div id="signUpModalContent">
+          <div id="lukSignUpModal">
+            <p>X</p>
+          </div>
+          <h1 id="signUpModalH1">Velkommen til Funds Tower!</h1>
+          <h2 id="signUpModalH2">Vi håber du vil nyde dit ophold her</h2>
+          <form id="signUpForm">
+            <label id="signUpEmail" class="label">
+              <p>Email Address: <span style="color: red;">*</span></p>
+              <input
+                type="email"
+                id="inpEmail"
+                class="input"
+                placeholder="placeholder@placeholder.com"
+              />
+            </label>
+            <label id="signUpName" class="label">
+              <p>User Name: <span style="color: red;">*</span></p>
+              <input type="text" id="inpName" class="input" />
+            </label>
+            <label id="signUpPass" class="label">
+              <p>Password: <span style="color: red;">*</span></p>
+              <input type="password" id="inpPass" class="input" />
+            </label>
+          </form>
+          <div id="signUpbutton">
+            <p>Sign Up!</p>
+          </div>
+          <div id="signUpImg">
+            <img src="imgs/fundstower-logo2-rgb-medium-color-payoff.png" />
+          </div>
+        </div>
+      </div>
+      <div id="loginModal" class="hide">
+        <div id="signUpModalContent">
+          <div id="lukLoginModal">
+            <p>X</p>
+          </div>
+          <h1 id="signUpModalH1">Velkommen tilbage!</h1>
+          <div id="inputContainer">
+            <label id="loginUsername">
+              <p>Username:</p>
+              <input type="text" id="loginUsernameInput" class="input" />
+            </label>
+            <label id="loginPassword">
+              <p>Password:</p>
+              <input type="password" id="loginPasswordInput" class="input" />
+            </label>
+          </div>
+
+          <div id="loginButton">
+            <p>Login</p>
+          </div>
+          <div id="signUpImg">
+            <img src="imgs/fundstower-logo2-rgb-medium-color-payoff.png" />
+          </div>
+        </div>
+      </div>
+      <div id="portDisplayContainer" class="hide">
+        <h2>Dine valgte aktier:</h2>
+        <div id="portDisplay"></div>
+      </div>
+      <div id="topHalf">
+        <div id="informationBlock">
+          <a href="forside.html">
+            <div id="menuItem1">
+              <p>Frontpage</p>
+            </div></a
+          >
+
+          <a href="stockValue.html"
+            ><div id="menuItem2">
+              <p>Stock Value</p>
+            </div></a
+          >
+          <div id="menuItem3">
+            <p>My Portfolio</p>
+          </div>
+          <a href="valuta.html"
+            ><div id="menuItem4">
+              <p>Valuta</p>
+            </div></a
+          >
+          <a href="news.html"
+            ><div id="menuItem5">
+              <p>News</p>
+            </div></a
+          >
+          <a href=""
+            ><div id="menuItem6">
+              <p>Something?</p>
+            </div></a
+          >
+        </div>
+        <div id="selectCountry">
+          <div id="country1" class="countryItem active">
+            <p>Danske Aktier</p>
+          </div>
+          <div id="country2" class="countryItem">
+            <p>Europæiske Aktier</p>
+          </div>
+          <div id="country3" class="countryItem">
+            <p>Amerikanske Aktier</p>
+          </div>
+          <div id="country4" class="countryItem">
+            <p>Asiatiske Aktier</p>
+          </div>
+          <div id="country5" class="countryItem">
+            <p>Andre Aktier</p>
+          </div>
+        </div>
+        <div id="displayBlock">
+          <div id="headlineBlock">
+            <h1 id="targeth1">Danske Aktier</h1>
+            <h2 id="targeth2">
+              En oversigt af aktier fra <span id="targeth2Span"> Danmark</span>
+            </h2>
+          </div>
+          <hr />
+          <div id="marketBox">
+            <h2>Select Market:</h2>
+            <div id="marketSelector">
+              <div class="marketItem">
+                <p>Alle Danske Aktier</p>
+              </div>
+              <div class="marketItem">
+                <p>C25</p>
+              </div>
+              <div class="marketItem">
+                <p>C20 CAP</p>
+              </div>
+              <div class="marketItem">
+                <p>Københanvs Fondsbørs</p>
+              </div>
+              <div class="marketItem">
+                <p>First North</p>
+              </div>
+              <div class="marketItem">
+                <p>Large Cap</p>
+              </div>
+              <div class="marketItem">
+                <p>Mid Cap</p>
+              </div>
+              <div class="marketItem">
+                <p>Small Cap</p>
+              </div>
+            </div>
+          </div>
+          <div id="sectorArea">
+            <h1>Filtrer efter ønsket branche</h1>
+            <div id="reset">
+              <p>Nulstil Filter</p>
+            </div>
+            <div id="sectorSelector">
+              <div class="sektorItem" id="oil.1">
+                <p>Olie og Gas</p>
+              </div>
+              <div class="sektorItem" id="telecom.2">
+                <p>Telekom</p>
+              </div>
+              <div class="sektorItem" id="material.3">
+                <p>Basismaterialer</p>
+              </div>
+              <div class="sektorItem" id="supplies.4">
+                <p>Forsyning</p>
+              </div>
+              <div class="sektorItem" id="industry.5">
+                <p>Industri</p>
+              </div>
+              <div class="sektorItem" id="finanse.6">
+                <p>Finans</p>
+              </div>
+              <div class="sektorItem" id="consumer.7">
+                <p>Forbrugsvarer</p>
+              </div>
+              <div class="sektorItem" id="technology.8">
+                <p>Teknologi</p>
+              </div>
+              <div class="sektorItem" id="healthcare.9">
+                <p>Sundhedspleje</p>
+              </div>
+              <div class="sektorItem" id="service.10">
+                <p>Forbrugstjenester</p>
+              </div>
+            </div>
+          </div>
+          <div id="stockDisplay">
+            <table id="dataContainer">
+              <thead id="tableHead">
+                <th>
+                  Company Name:
+                </th>
+                <th id="tHeadPlus">
+                  -/+
+                </th>
+                <th id="tHeadRevenue">
+                  Revenue:
+                </th>
+                <th id="tHeadValue">
+                  Estimated Value:
+                </th>
+                <th id="tHeadBusiness">
+                  Business:
+                </th>
+              </thead>
+              <tbody id="companyObjTarget"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="stock.js"></script>
+</html>

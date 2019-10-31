@@ -1,0 +1,308 @@
+$primaerGroen: rgb(30, 210, 120);
+$lysOrange: rgba(250, 145, 70, 1);
+$midnatsBlaa: rgb(20, 40, 45);
+$blaaGroen: rgb(50, 90, 90);
+$stoevetBlaaGroen: rgb(110, 150, 145);
+$stoevetMintGroen: rgb(225, 245, 240);
+$testFont: "Roboto", sans-serif;
+.reset {
+  margin: 0;
+  padding: 0;
+}
+@import "stock";
+@import "portfolio";
+body {
+  overflow-x: hidden;
+  @extend .reset;
+  header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    #logoArea {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      background-color: $midnatsBlaa;
+      height: 100%;
+      width: 20vw;
+      position: relative;
+      left: 10vw;
+      #logoImg {
+        width: 80%;
+        position: relative;
+        left: 2vw;
+        top: 0.5vw;
+      }
+      #logoTxt {
+        @extend .reset;
+        position: relative;
+        color: white;
+        text-align: center;
+        top: 1.5vw;
+        font-family: $testFont;
+        font-size: 2.1vw;
+        cursor: default;
+      }
+    }
+    #userloginArea {
+      position: relative;
+      height: 100%;
+      width: 40%;
+
+      z-index: 1;
+      left: 60%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      #logoutButton {
+        background-color: $lysOrange;
+        width: 60%;
+        height: 60%;
+        margin: auto;
+        p {
+          @extend .reset;
+          text-align: center;
+          margin-top: 0.7vw;
+          color: white;
+          font-family: $testFont;
+          font-size: 1.2vw;
+        }
+      }
+      #generatedH1 {
+        color: white;
+        font-family: $testFont;
+        font-size: 1.1vw;
+      }
+      #login {
+        width: 60%;
+        height: 40%;
+        margin: auto;
+        background-color: $lysOrange;
+        border-radius: 0.4vw;
+        transition: 0.3s;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.05);
+        }
+        #loginText {
+          width: 100%;
+          @extend .reset;
+          margin: 0.5vw 0vw 0vw 1.8vw;
+          font-family: $testFont;
+          font-size: 0.9vw;
+        }
+      }
+      #signup {
+        width: 60%;
+        height: 40%;
+        margin: auto;
+        background-color: $primaerGroen;
+        border-radius: 0.4vw;
+        transition: 0.3s;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.05);
+        }
+        #signupText {
+          width: 100%;
+          @extend .reset;
+          margin: 0.5vw 0vw 0vw 1.4vw;
+          font-family: $testFont;
+          font-size: 0.9vw;
+        }
+      }
+    }
+  }
+  main {
+    width: 100vw;
+    background-color: $stoevetMintGroen;
+    #informationBlock {
+      position: relative;
+      width: 100vw;
+      height: 5vh;
+      background-color: $blaaGroen;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      a {
+        height: 5vh;
+        border: solid black 1px;
+        box-sizing: border-box;
+      }
+      div {
+        cursor: pointer;
+
+        p {
+          @extend .reset;
+          color: white;
+          font-family: $testFont;
+          text-align: center;
+          margin-top: 0.6vw;
+        }
+      }
+    }
+    #displaySection {
+      display: grid;
+      grid-template-columns: 1fr 3.5fr;
+      width: 100vw;
+      height: 85vh;
+      #selectorBlock {
+        #selectorHead {
+          position: relative;
+          height: 3vw;
+
+          left: 3vw;
+          #selectorHeadline {
+            font-family: $testFont;
+            @extend .reset;
+            position: relative;
+            top: 1vw;
+            font-size: 1.2vw;
+            color: $midnatsBlaa;
+          }
+        }
+        #selectorSection {
+          overflow: scroll;
+          overflow-x: hidden;
+          position: relative;
+          left: 3vw;
+          background-color: white;
+          width: 15vw;
+          height: 60vh;
+          #companyBlock {
+            width: 100%;
+            .companyDiv {
+              border: solid 1px black;
+              cursor: pointer;
+              p {
+                font-family: $testFont;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+      #graphBlock {
+        #graphDisplayBoxFalse {
+          position: absolute;
+          width: 7.5vw;
+          height: 3vw;
+          background-color: $lysOrange;
+          right: 1vw;
+          top: 27vw;
+          border-radius: 2vw;
+          #falseTarget {
+            color: black;
+            font-family: $testFont;
+            font-size: 1.2vw;
+            @extend .reset;
+            margin: 0.8vw 0vw 0vw 1.2vw;
+            pointer-events: none;
+          }
+        }
+        #graphDisplayBoxFunds {
+          position: absolute;
+          width: 7.5vw;
+          height: 3vw;
+          background-color: $primaerGroen;
+          right: 1vw;
+          top: 33vw;
+          border-radius: 2vw;
+          #fundsTarget {
+            color: black;
+            font-family: $testFont;
+            font-size: 1.2vw;
+            @extend .reset;
+            margin: 0.8vw 0vw 0vw 1.2vw;
+            pointer-events: none;
+          }
+        }
+        #canvasContainer {
+          position: relative;
+          height: 70vh;
+          width: 70vw;
+        }
+        #addToPortBtn {
+          cursor: pointer;
+          width: 10vw;
+          height: 2vw;
+          background-color: $stoevetBlaaGroen;
+          position: absolute;
+          right: 2vw;
+          top: 90vh;
+          transition: 0.2s;
+          &:hover {
+            transform: scale(1.05);
+          }
+          p {
+            @extend .reset;
+            margin: 0.5vw 1vw 1vw 3vw;
+            font-family: $testFont;
+            color: black;
+            font-weight: bold;
+            pointer-events: none;
+          }
+        }
+      }
+    }
+    #bottomHalf {
+      height: 100vh;
+      width: 100vw;
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      #companyDisplayer {
+        overflow: scroll;
+        overflow-x: hidden;
+        background-color: $stoevetBlaaGroen;
+        position: relative;
+        width: 100%;
+        height: 40vw;
+        left: 2vw;
+        top: 2vw;
+        #companyTarget {
+          .portDiv {
+            border: black solid 2px;
+            margin: 1vw;
+            background-color: white;
+            p {
+              text-align: center;
+              font-family: $testFont;
+              font-size: 1.3vw;
+            }
+          }
+        }
+      }
+      #tableContainer {
+        background-color: $stoevetBlaaGroen;
+        margin: auto;
+        position: relative;
+        width: 90%;
+        height: 70%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+        #indexNumbers {
+          border-collapse: collapse;
+
+          width: 100%;
+          #lockedRow {
+            color: white;
+            font-family: $testFont;
+            font-size: 1.1vw;
+          }
+          #tableBody {
+            .tableRow {
+              border: solid black 2px;
+              background-color: white;
+              &:nth-child(odd) {
+                background-color: lightgrey;
+              }
+            }
+            .tableItem {
+              padding: 0.8vw 0vw 0.8vw 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

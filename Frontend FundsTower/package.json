@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-mappe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watchsass": "node-sass --output-style expanded main.scss output.css -w"
+  },
+  "author": "sørenrembøll",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "gsap": "^2.1.2",
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "chart.js": "^2.8.0"
+  }
+}
