@@ -15,7 +15,7 @@
     "node-sass": "^4.11.0"
   },
   "dependencies": {
-    "chart.js": "^2.8.0",
+    "chart.js": "^2.9.4",
     "stripe": "^7.10.0"
   }
 }
